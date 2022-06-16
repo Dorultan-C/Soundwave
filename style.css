@@ -60,3 +60,26 @@ body {
   margin: 0 auto;
   padding: 0 40px;
 }
+
+.title {
+  font-weight: 300;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  color: aquamarine;
+  background-color: rgb(39, 95, 208);
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  font-size: .9rem;
+
+}
