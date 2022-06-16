@@ -63,3 +63,43 @@
     margin: 2rem 0;
   }
 }
+
+.join-page-circle-1 {
+  position: absolute;
+  overflow: hidden;
+  width: 35vh;
+  height: 35vh;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.join-page-circle-1::before {
+  content: '';
+  transform: translateX(-20%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(183, 87, 143, 0.1);
+}
+
+.join-page-circle-2 {
+  position: absolute;
+  overflow: hidden;
+  width: 30vh;
+  height: 30vh;
+  top: 0;
+  left: 20vw;
+  z-index: -1;
+}
+
+.join-page-circle-2::before {
+  content: '';
+  transform: translateY(-30%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(80, 94, 199, 0.1);
+}
