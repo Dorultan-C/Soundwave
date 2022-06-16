@@ -40,3 +40,45 @@
     justify-content: center;
   }
 }
+
+.home-page-circle-1 {
+  position: absolute;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  background-color: rgba(183, 87, 143, 0.1);
+  bottom: 5vh;
+  left: 5vh;
+  z-index: -1;
+}
+
+.home-page-circle-2 {
+  position: absolute;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  background-color: rgba(198, 105, 160, 0.1);
+  top: 15vh;
+  left: 30vh;
+  z-index: -1;
+}
+
+.home-page-circle-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 45vh;
+  height: 45vh;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.home-page-circle-3::before {
+  content: '';
+  transform: translate(40%, 40%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(183, 87, 143, 0.1);
+}
